@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>דל עם ישראל</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+* {margin:0; padding:0; box-sizing:border-box; font-family:'Rubik',sans-serif;}
+body {background: linear-gradient(180deg,#002147,#ffffff); color:#000; line-height:1.6;}
+header {height:80vh; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; background: url('https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Israel.svg') center/cover no-repeat;}
+header h1 {font-size:4rem; font-weight:900; color:#fff; text-shadow:2px 2px 10px #000;}
+header p {margin-top:20px; font-size:1.3rem; color:#fff; text-shadow:1px 1px 6px #000;}
+section {padding:60px 10%; text-align:center;}
+section h2 {font-size:2.5rem; margin-bottom:30px; color:#002147;}
+.grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:20px;}
+.card {background: rgba(0,33,71,0.1); border-radius:15px; padding:20px; transition:0.3s; cursor:pointer;}
+.card:hover {transform: translateY(-10px) scale(1.03); background: rgba(0,33,71,0.2);}
+footer {padding:40px; text-align:center; opacity:0.7; font-size:0.9rem; background:#002147; color:#fff;}
+a {color:#fff; text-decoration:none;}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>דל עם ישראל</h1>
+  <p>אתר קטן להצגה של השירים הכי ישראליים</p>
+</header>
+
+<section id="songs">
+  <h2>השירים המובילים</h2>
+  <div class="grid">
+    <div class="card">התקווה – המנון ישראל</div>
+    <div class="card">ירושלים של זהב – נעמי שמר</div>
+    <div class="card">אור ירוק – עומר אדם</div>
+    <div class="card">הכל זהב – דויד ברוזה</div>
+    <div class="card">תל אביב – אבי טולדנו</div>
+    <div class="card">כחול לבן – להקת כוורת</div>
+    <div class="card">החיים שלי – מאור כהן</div>
+    <div class="card">עוד חוזר הניגון – אריק איינשטיין</div>
+  </div>
+</section>
+
+<section id="info">
+  <h2>מידע על השירים</h2>
+  <p>כאן תוכלו למצוא אוסף של שירים ישראליים עם הקשר היסטורי, מילים, וסרטוני וידאו. כל השירים נבחרו להראות את רוח המדינה והתרבות הישראלית.</p>
+</section>
+
+<footer>
+  © 2026 דל עם ישראל | כל הזכויות שמורות | <a href="#">GitHub</a>
+</footer>
+
+</body>
+</html>
